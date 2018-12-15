@@ -44,3 +44,9 @@ p img {
     background-position: 100% 50%;
   }
 }
+
+@media (max-width: 651px) {
+  .animated {
+    font-size: 4rem;
+  }
+}
