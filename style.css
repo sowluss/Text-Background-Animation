@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Siliguri');
+
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+p img {
+  width: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: url('bkg1.jpeg') no-repeat center center/cover;
+  height: 100vh;
+  align-items: cente;
+  justify-content: center;
+  text-align: center; 
+}
+
+.animated {
+  font-family: 'Charm', cursive;
+  margin: 0;
+  padding: 0;
+  font-size: 6rem;
+  background: url('frost-text.png') no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: moveBg 90s linear infinite;
+  -webkit-animation: moveBg 90s linear infinite;
+}
+
+/* Text Background Aimation */
+
+@keyframes moveBg {
+  0% {
+    background-position: 0% 30%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
